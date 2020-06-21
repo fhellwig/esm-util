@@ -1,8 +1,9 @@
 {
   "name": "esm-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities that help when transitioning to ECMAScript modules in Node.js.",
   "type": "module",
+  "main": "./esm-util.js",
   "exports": {
     ".": "./esm-util.js"
   },
