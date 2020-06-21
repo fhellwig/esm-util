@@ -1,0 +1,28 @@
+{
+  "name": "esm-util",
+  "version": "1.0.0",
+  "description": "Utilities that help when transitioning to ECMAScript modules in Node.js.",
+  "type": "module",
+  "exports": {
+    ".": "./esm-util.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhellwig/esm-util.git"
+  },
+  "keywords": [
+    "ESM"
+  ],
+  "author": "Frank Hellwig <frank@hellwig.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhellwig/esm-util/issues"
+  },
+  "homepage": "https://github.com/fhellwig/esm-util#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
